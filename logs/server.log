@@ -1,0 +1,29 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [152] using StatReload
+INFO:     Started server process [154]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:42650 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:42658 - "OPTIONS /auth/login HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42676 - "OPTIONS /auth/login HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42666 - "GET /payments?email=john.doe%40example.com HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42664 - "GET /assets HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42658 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42676 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42666 - "GET /payments?email=john.doe%40example.com HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42664 - "GET /assets HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42692 - "GET /notices HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42702 - "GET /maintenance?email=john.doe%40example.com HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42692 - "GET /notices HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42702 - "GET /maintenance?email=john.doe%40example.com HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58412 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58428 - "GET /notices HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58446 - "GET /payments?email=john.doe%40example.com HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58438 - "GET /maintenance?email=john.doe%40example.com HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58428 - "GET /notices HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58412 - "GET /maintenance?email=john.doe%40example.com HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58446 - "GET /payments?email=john.doe%40example.com HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58458 - "GET /assets HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58468 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58458 - "GET /assets HTTP/1.1" 200 OK
